@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
-    <title>Potafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Pepito Perez</title>
     <meta name="description" content="portafolio pepito perez">
-    <style>
-        body{
-            background:orange;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,21 +14,17 @@
         <h1>Portafolio de PePito Perez</h1>
 
         <p>Bienvenidos a mi portafolio , soy un desarrollador de
-            software con 1 año de xp
+            software con 1 año de experiencia.
         </p>
         <nav>
             <a href="#experiencia">Experiencia</a>
             <a href="#proyectos">Proyectos</a>
-            <a 
-                href="https://www.youtube.com/watch?v=-bP6qtB88js&t=1s"
-                target="_blank"
-                >Youtube
-            </a>
+            <a href="#youtube">Youtube</a>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section>   
             <h2 id="experiencia">Experiencia</h2>
             <ul>
                 <li class="item-lista">Google</li>
@@ -49,12 +42,24 @@
                 <li class="item-lista">Portafolio personal</li>
             </ul>
         </section>
-        <article></article>
 
-        <img id="imagen1" src="/imagenes/foto.png" width="200" height="200" alt="foto de pepito perez">
-        <video controls src=""></video>
-        <audio controls src=""></audio>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/-bP6qtB88js?si=0iehg04jQ36vNENx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section>
+            <h2 id="youtube">Youtube</h2>
+            <ul>
+                <li class="item-lista">Foto de Perfil
+                    <img id="imagen1" src="/imagenes/foto.png" width="200" height="200" alt="foto de pepito perez">
+                </li>
+                <li class="item-lista">Video de presentación 
+                    <iframe width="400" height="315" 
+                        src="https://www.youtube.com/embed/-bP6qtB88js?si=0iehg04jQ36vNENx" 
+                        title="YouTube video player"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen></iframe>
+                </li>
+            </ul>
+        </section>
 
     </main>
 
